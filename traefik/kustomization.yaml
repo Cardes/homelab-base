@@ -8,5 +8,5 @@ helmCharts:
     includeCRDs: true
     valuesFile: values.yaml
     releaseName: traefik
-    version: v28.3.0
+    version: 29.0.1
     repo: https://traefik.github.io/charts
