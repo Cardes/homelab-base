@@ -14,6 +14,6 @@ images:
   - name: docker.io/nginxinc/nginx-unprivileged
     newTag: 1.27-alpine
   - name: docker.io/prom/prometheus
-    newTag: v2.53.1
+    newTag: v2.54.0
   - name: docker.io/kiwigrid/k8s-sidecar
     newTag: 1.27.5
