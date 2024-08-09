@@ -15,3 +15,5 @@ images:
     newTag: 1.27-alpine
   - name: docker.io/prom/prometheus
     newTag: v2.53.1
+  - name: docker.io/kiwigrid/k8s-sidecar
+    newTag: 1.27.5
