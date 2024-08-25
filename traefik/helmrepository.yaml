@@ -6,4 +6,4 @@ metadata:
     namespace: traefik
 spec:
     interval: 10m0s
-    url: https://helm.traefik.io/traefik
+    url: oci://ghcr.io/traefik/helm/traefik
