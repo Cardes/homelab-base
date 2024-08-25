@@ -5,7 +5,7 @@ kind: Kustomization
 images:
   - name: quay.io/thanos/thanos
     newTag: v0.36.1
-  - name: docker pull grafana/grafana
+  - name: docker.io/grafana/grafana
     newTag: 11.1.4
   - name: docker.io/grafana/loki
     newTag: 3.1.1
