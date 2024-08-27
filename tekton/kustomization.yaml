@@ -9,4 +9,4 @@ images:
  - name: gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller
    newTag: v0.62.2
  - name: gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
-   newTag: v0.62.0
+   newTag: v0.62.2
