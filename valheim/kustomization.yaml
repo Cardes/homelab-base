@@ -4,4 +4,4 @@ kind: Kustomization
 
 images:
   - name: docker.io/mbround18/valheim
-    newTag: 3.0.4
+    newTag: 3.0.5
