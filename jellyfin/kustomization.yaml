@@ -3,4 +3,4 @@ kind: Kustomization
 
 images:
   - name: docker.io/jellyfin/jellyfin
-    newTag: 10.9.11
+    newTag: 10.10.0
