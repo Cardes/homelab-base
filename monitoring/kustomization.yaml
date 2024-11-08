@@ -12,7 +12,7 @@ images:
   - name: docker.io/grafana/loki-canary
     newTag: 3.2.1
   - name: docker.io/prom/memcached-exporter
-    newTag: v0.14.4
+    newTag: v0.15.0
   - name: docker.io/nginxinc/nginx-unprivileged
     newTag: 1.27-alpine
   - name: docker.io/prom/prometheus
