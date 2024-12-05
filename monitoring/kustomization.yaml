@@ -6,7 +6,7 @@ images:
   - name: quay.io/thanos/thanos
     newTag: v0.37.1
   - name: docker.io/grafana/grafana
-    newTag: 11.3.1
+    newTag: 11.4.0
   - name: docker.io/grafana/loki
     newTag: 3.3.0
   - name: docker.io/grafana/loki-canary
