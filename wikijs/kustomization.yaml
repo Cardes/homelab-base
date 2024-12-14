@@ -5,4 +5,4 @@ images:
   - name: ghcr.io/requarks/wiki
     newTag: 2
   - name: docker.io/postgres
-    newTag: 15-alpine
+    newTag: 17-alpine
