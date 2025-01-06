@@ -9,4 +9,4 @@ helmCharts:
     includeCRDs: true
     releaseName: longhorn
     version: v1.7.1
-    repo: hhttps://charts.longhorn.io
+    repo: https://charts.longhorn.io
