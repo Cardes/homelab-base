@@ -10,3 +10,7 @@ helmCharts:
     releaseName: traefik
     version: 34.2.0
     repo: https://traefik.github.io/charts
+
+images:
+  - name: quay.io/oauth2-proxy/oauth2-proxy
+    newTag: v7.8.1
