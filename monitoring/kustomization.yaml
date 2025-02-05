@@ -20,4 +20,4 @@ images:
   - name: docker.io/prom/prometheus
     newTag: v3.1.0
   - name: docker.io/kiwigrid/k8s-sidecar
-    newTag: 1.29.1
+    newTag: 1.30.0
