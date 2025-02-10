@@ -3,6 +3,6 @@ kind: Kustomization
 
 images:
   - name: codeberg.org/forgejo/forgejo
-    newTag: 10.0.0-rootless
+    newTag: 10.0.1-rootless
   - name: docker.io/mariadb
     newTag: lts
