@@ -7,10 +7,6 @@ images:
     newTag: v0.37.2
   - name: docker.io/grafana/grafana
     newTag: 11.5.1
-  - name: docker.io/grafana/loki
-    newTag: 3.3.2
-  - name: docker.io/grafana/loki-canary
-    newTag: 3.3.2
   - name: docker.io/prom/memcached-exporter
     newTag: v0.15.0
   - name: docker.io/nginxinc/nginx-unprivileged
