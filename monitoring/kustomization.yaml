@@ -6,7 +6,7 @@ images:
   - name: quay.io/thanos/thanos
     newTag: v0.37.2
   - name: docker.io/grafana/grafana
-    newTag: 11.5.1
+    newTag: 11.5.2
   - name: docker.io/prom/memcached-exporter
     newTag: v0.15.0
   - name: docker.io/nginxinc/nginx-unprivileged
