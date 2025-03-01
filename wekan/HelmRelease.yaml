@@ -1,0 +1,16 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+    name: wekan
+    namespace: wekan
+spec:
+    interval: 10m0s
+    releaseName: wekan
+    chart:
+        spec:
+            chart: wekan
+            sourceRef:
+                kind: HelmRepository
+                name: wekan
+                namespace: wekan
+            version: 7.82.0
