@@ -8,5 +8,5 @@ helmCharts:
     includeCRDs: true
     valuesFile: values.yaml
     releaseName: kubernetes-dashboard
-    version: 7.10.5
+    version: 7.11.1
     repo: https://kubernetes.github.io/dashboard/
