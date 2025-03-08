@@ -3,4 +3,4 @@ kind: Kustomization
 
 images:
   - name: docker.io/homeassistant/home-assistant
-    newTag: 2025.2.5
+    newTag: 2025.3.1
