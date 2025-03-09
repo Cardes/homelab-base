@@ -19,7 +19,7 @@ spec:
                 # Should match the namespace of the HelmRepository
                 namespace: monitoring
             # Specify a version or update for the latest one
-            version: 69.6.0
+            version: 69.8.2
     install:
         # Automatically create the namespace if it doesn't exist
         createNamespace: true
