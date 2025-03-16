@@ -1,8 +1,6 @@
-terraform {
-  required_providers {
-    talos-hcloud = {
-        source = "hcloud-talos/talos"
-        version = "2.13.1"
-        }
-  }
+module "talos" {
+  source  = "hcloud-talos/talos/hcloud"
+  version = "2.13.3"
 }
+
+
