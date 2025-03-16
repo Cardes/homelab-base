@@ -3,14 +3,6 @@
   "extends": [
     "config:recommended", ":dependencyDashboard"
   ],
-  "packageRules": [
-    {
-      "managers": ["github-releases"],
-      "fileMatch": ["\\github\\.txt"],
-      "registryUrls": ["https://github.com/"],
-      "versioning": "semver"
-    }
-  ],
   "flux": {
     "fileMatch": ["\\.yaml$"]
   }
