@@ -8,7 +8,7 @@ images:
   - name: docker.io/grafana/grafana
     newTag: 11.6.0
   - name: docker.io/prom/memcached-exporter
-    newTag: v0.15.1
+    newTag: v0.15.2
   - name: docker.io/nginxinc/nginx-unprivileged
     newTag: 1.27-alpine
   - name: quay.io/prometheus/alertmanager
