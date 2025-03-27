@@ -1,0 +1,23 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+    name: harbor
+    # Replace with your desired namespace for Prometheus
+    namespace: harbor
+spec:
+    # Period for Helm to reconcile the release state
+    interval: 10m0s
+    releaseName: harbor
+    chart:
+        spec:
+            # Name of the chart in the repository
+            chart: harbor
+            sourceRef:
+                kind: HelmRepository
+                # Reference to the HelmRepository created above
+                name: harbor
+                # Should match the namespace of the HelmRepository
+                namespace: harbor
+            # Specify a version or update for the latest one
+            version: v1.16.2
+    values: null
