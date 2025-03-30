@@ -1,0 +1,23 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+    name: authentik
+    # Replace with your desired namespace for Prometheus
+    namespace: authentik
+spec:
+    # Period for Helm to reconcile the release state
+    interval: 10m0s
+    releaseName: authentik
+    chart:
+        spec:
+            # Name of the chart in the repository
+            chart: authentik
+            sourceRef:
+                kind: HelmRepository
+                # Reference to the HelmRepository created above
+                name: authentik
+                # Should match the namespace of the HelmRepository
+                namespace: authentik
+            # Specify a version or update for the latest one
+            version: 2025.2.2
+    values: null
