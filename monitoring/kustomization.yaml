@@ -4,7 +4,7 @@ kind: Kustomization
 
 images:
   - name: quay.io/thanos/thanos
-    newTag: v0.37.2
+    newTag: v0.38.0
   - name: docker.io/grafana/grafana
     newTag: 11.6.0
   - name: docker.io/prom/memcached-exporter
