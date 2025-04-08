@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: wireguard
+  namespace: wireguard
+spec:
+  interval: 10m0s  # Sync interval between Flux and the Helm repository
+  url: https://bryopsida.github.io/wireguard-chart

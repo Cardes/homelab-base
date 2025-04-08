@@ -1,17 +1,17 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-    name: harbor
-    namespace: harbor
+    name: wireguard
+    namespace: wireguard
 spec:
     interval: 10m0s
-    releaseName: harbor
+    releaseName: wireguard
     chart:
         spec:
-            chart: harbor
+            chart: wireguard
             sourceRef:
                 kind: HelmRepository
-                name: harbor
-                namespace: harbor
-            version: v1.16.2
+                name: wireguard
+                namespace: wireguard
+            version: 0.29.0
     values: null

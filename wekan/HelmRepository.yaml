@@ -4,5 +4,5 @@ metadata:
   name: wekan
   namespace: wekan
 spec:
-  interval: 10m0s  # Sync interval between Flux and the Helm repository
+  interval: 10m0s
   url: https://wekan.github.io/charts

@@ -2,24 +2,17 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
     name: kube-prometheus-stack
-    # Replace with your desired namespace for Prometheus
     namespace: monitoring
 spec:
-    # Period for Helm to reconcile the release state
     interval: 10m0s
     releaseName: kube-prometheus-stack
     chart:
         spec:
-            # Name of the chart in the repository
             chart: kube-prometheus-stack
             sourceRef:
                 kind: HelmRepository
-                # Reference to the HelmRepository created above
                 name: prometheus-community
-                # Should match the namespace of the HelmRepository
                 namespace: monitoring
-            # Specify a version or update for the latest one
             version: 70.4.2
     install:
-        # Automatically create the namespace if it doesn't exist
         createNamespace: true
