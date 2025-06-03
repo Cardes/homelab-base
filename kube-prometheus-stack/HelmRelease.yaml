@@ -13,6 +13,6 @@ spec:
                 kind: HelmRepository
                 name: prometheus-community
                 namespace: monitoring
-            version: 72.6.2
+            version: 72.9.1
     install:
         createNamespace: true
