@@ -13,5 +13,5 @@ spec:
                 kind: HelmRepository
                 name: authentik
                 namespace: authentik
-            version: 2025.2.2
+            version: 2025.6.2
     values: null
