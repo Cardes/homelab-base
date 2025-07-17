@@ -4,4 +4,4 @@ namespace: mealie
 
 images:
   - name: ghcr.io/mealie-recipes/mealie
-    newTag: v2.8.0
+    newTag: v3.0.1
