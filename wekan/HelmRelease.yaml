@@ -13,4 +13,4 @@ spec:
                 kind: HelmRepository
                 name: wekan
                 namespace: wekan
-            version: 7.93.0
+            version: 7.94.0
