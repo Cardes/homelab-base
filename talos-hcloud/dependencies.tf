@@ -1,6 +1,6 @@
 module "talos" {
   source  = "hcloud-talos/talos/hcloud"
-  version = "2.16.0"
+  version = "2.21.0"
 }
 
 
