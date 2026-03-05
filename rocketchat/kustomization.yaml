@@ -4,4 +4,4 @@ namespace: rocketchat
 
 images:
   - name: docker.io/rocket.chat
-    newTag: 8.1.1
+    newTag: 8.2.0
