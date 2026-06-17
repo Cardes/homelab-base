@@ -14,6 +14,6 @@ images:
   - name: quay.io/prometheus/alertmanager
     newTag: v0.33.0
   - name: docker.io/prom/prometheus
-    newTag: v3.11.0
+    newTag: v3.12.0
   - name: docker.io/kiwigrid/k8s-sidecar
     newTag: 2.5.4
